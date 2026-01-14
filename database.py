@@ -3,7 +3,9 @@ import mysql.connector
 config = {
     "user": "pyuser",
     "password": "Iphone123$$",
-    "host": "localhost"
+    "host": "localhost",
+    "database": "pythonsql"
+    
 }
 
 def get_connection():
